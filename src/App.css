@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Handlee&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Handlee', cursive;
+ }
+
+
+/* ------------START ---------- */
+
+.container {
+    display: flex;
+}
+
+.start-h2 {
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    top: 7%;
+    
+}
+
+.board {
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.board h4 {
+    padding-left: 6%;
+}
+
+.start-btn {
+    display: flex;
+    position: absolute;
+    top: 75%;
+    left: 36%;
+}
+
+
+.start-text {
+    display: flex;
+    position: fixed;
+    font-size: 50px;
+    right: 48.2%;
+    top: 75%;
+    padding-left: 55%;
+}
+
+.startSVG {
+    position: fixed;
+    right: 38%;
+    top: 70%;
+}
+
+.t1 {
+    position: fixed;
+    top: 30%;
+    text-align: center;
+}
+
+.t2 {
+    position: fixed;
+    top: 42%;
+}
+
+.t3 {
+    position: fixed;
+    top: 53%
+}
+
+
+/* ------------START------------*/
+
+
+/* ------------GAME------------ */
+
+.game-component {
+    max-width: 100%;
+}
+
+.navbar {
+    position: absolute;
+    left: 70%;
+    margin: 5px;
+    padding: 10px;
+}
+.navbar span {
+    margin: 30px;
+}
+
+.round-0 {
+    position: fixed;
+    top: 16%;
+    left: 75%;
+}
+
+.round-1 {
+    position: fixed;
+    top: 36%;
+    left: 60%;
+}
+
+.round-2 {
+    position: fixed;
+    top: 56%;
+    left: 75%;
+}
+
+.Human {
+    position: fixed;
+    top: 3%;
+    right: 48%;
+}
+
+.question {
+    position: absolute;
+    top: 24%;
+    left: 15%;
+    font-size: 60px;
+    font-family: 'Finger Paint', cursive;
+}
+
+.data-text {
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+
+/* ----------GAME---------- */
+
+
+/* ----------FİNAL--------- */
+
+.final {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.final-header {
+    position: fixed;
+    text-align: center;
+    left: 22%;
+    top: 10%;
+    color: #FF0000;
+    border-bottom: 2px solid #FF0000;
+}
+
+.point {
+    position: fixed;
+    left: 21%;
+    top: 25%;
+}
+
+.questions {
+    position: fixed;
+    left: 19%;
+    top: 35%;
+}
+
+.correct {
+    position: fixed;
+    left: 17%;
+    top: 45%;
+}
+
+.resart {
+    position: fixed;
+    left: 15%;
+    top: 55%;
+}
+
+.Questions {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    top: 10%;
+    left: 70%;
+}
+
+.allQuestion {
+    color: red;
+    border-bottom: 2px solid #FF0000;
+}
+
+/* ----------- FİNAL---------- */
